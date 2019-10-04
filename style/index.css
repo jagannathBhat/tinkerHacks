@@ -23,7 +23,7 @@ body {
 
 html {
     background-image: url(../img/octocat.png), url(../img/photo1.jpg);
-    background-position: -240px 240px, 100% 200vh;
+    background-position: -240px 240px, 100% 180vh;
     background-repeat: no-repeat;
     background-size: auto, 84vw;
 }
