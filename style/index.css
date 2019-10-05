@@ -21,6 +21,16 @@ body {
     background-color: #212121ee;
 }
 
+button {
+    background-color: #a11ec6;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font: 300 18px serif;
+    margin-top: 60px;
+    padding: 18px 36px;
+}
+
 html {
     background-image: url(../img/octocat.png), url(../img/photo1.jpg);
     background-position: -240px 240px, 100% 180vh;
@@ -46,16 +56,26 @@ h4 {
     margin-top: 12px;
 }
 
+h4 small {
+    font: 300 18px sans-serif;
+}
+
 h5 {
     font: 600 24px serif;
 }
 
 header {
-    padding: 120px 0px;
+    padding: 120px 12px;
 }
 
 p {
     font: 300 24px sans-serif;
+}
+
+p small {
+    display: inline-block;
+    font: 300 18px sans-serif;
+    max-width: 600px;
 }
 
 p span {
@@ -75,6 +95,10 @@ section {
 .img img {
     max-width: 120px;
     width: 100%;
+}
+
+.link {
+    border-bottom: 3px dotted #fafafa;
 }
 
 #hacktoberfest {
@@ -111,6 +135,10 @@ section {
 
     h5 {
         font-size: 30px;
+    }
+
+    header {
+        padding: 84px 12px;
     }
 
     html {
